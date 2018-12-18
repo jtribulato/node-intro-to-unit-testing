@@ -3,12 +3,12 @@ const adder = require('../fizzBuzzer');
 
 describe('fizzBuzzer', function() {
     it('should be a multiple of 15', function() {
-        const normalCases = [
-            {a: 5, expected: 0},
-            {a: 15, expected: 0},
-            {a: 3, expected: 0},
-            {a: 7, expected: 0}
-          ];
+        const normalCases = [ 15, 30, 45 ];
+        normalCases.forEach(element => {
+            
+        });
+            
+          
       fizzBuzzer(a) {
           return "fizzBuzz";
       }
